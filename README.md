@@ -47,8 +47,10 @@ A full-stack quiz application built with React and Node.js that allows administr
 3. Set up environment variables:
    Create `.env` file in the server directory with:
    ```
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
+   PORT=5001
+   MONGODB_URI=mongodb+srv://deepravikaif:Gp82tq1eBlSVdp8a@cluster0.gks3k.mongodb.net/authquiz-app
+   JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+   NODE_ENV=development
    ```
 
 4. Start the application:
